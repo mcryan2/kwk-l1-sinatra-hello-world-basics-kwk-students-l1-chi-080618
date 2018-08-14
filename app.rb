@@ -1,5 +1,7 @@
-class App
-  require 'pry'
-  before do
-    get '/'
+class App <Sinatra::Base
+  
+  
+  get '/' do
+    "Hello, World"
   end
+end
